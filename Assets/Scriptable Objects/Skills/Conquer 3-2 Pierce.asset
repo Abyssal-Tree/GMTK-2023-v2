@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b190e1e22f70c44ea1e74bb5223b550, type: 3}
+  m_Name: Conquer 3-2 Pierce
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: 3524d027ad4189c4382bb77a3985e3fd,
+    type: 3}
+  <Title>k__BackingField: Piercing
+  <Description>k__BackingField: Increase amount targets Pierced by 1 each Lvl
+  levelUp: 11
+  levelUpBonus: 1
+  unlockStat: 0
+  unlockBonus: 0
+  levels:
+  - <Resources>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: e012bce042b49f74dac1aa879e98c4a4,
+        type: 2}
+      <amount>k__BackingField: 5
+    - <Resource>k__BackingField: {fileID: 11400000, guid: 17d7c47e975f8d440bc7f10de4551e45,
+        type: 2}
+      <amount>k__BackingField: 6
+  - <Resources>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: e012bce042b49f74dac1aa879e98c4a4,
+        type: 2}
+      <amount>k__BackingField: 5
+    - <Resource>k__BackingField: {fileID: 11400000, guid: 17d7c47e975f8d440bc7f10de4551e45,
+        type: 2}
+      <amount>k__BackingField: 6
+  requirement:
+  - {fileID: 11400000, guid: 0b7e66770c43e6146955fea6184260f8, type: 2}

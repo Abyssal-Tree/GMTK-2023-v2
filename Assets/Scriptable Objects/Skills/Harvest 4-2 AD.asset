@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b190e1e22f70c44ea1e74bb5223b550, type: 3}
+  m_Name: Harvest 4-2 AD
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: adefb2d12d71dbe46a7cf6b4312ea013,
+    type: 3}
+  <Title>k__BackingField: Tree Choper
+  <Description>k__BackingField: Increase "Spetial" damage by 50% each Lvl
+  levelUp: 8
+  levelUpBonus: 50
+  unlockStat: 0
+  unlockBonus: 0
+  levels:
+  - <Resources>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: e012bce042b49f74dac1aa879e98c4a4,
+        type: 2}
+      <amount>k__BackingField: 5
+    - <Resource>k__BackingField: {fileID: 11400000, guid: 17d7c47e975f8d440bc7f10de4551e45,
+        type: 2}
+      <amount>k__BackingField: 2
+  - <Resources>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 11400000, guid: e012bce042b49f74dac1aa879e98c4a4,
+        type: 2}
+      <amount>k__BackingField: 9
+    - <Resource>k__BackingField: {fileID: 11400000, guid: 17d7c47e975f8d440bc7f10de4551e45,
+        type: 2}
+      <amount>k__BackingField: 5
+  requirement:
+  - {fileID: 11400000, guid: 1dde7693d52660a4896eaedcb299c0dc, type: 2}
